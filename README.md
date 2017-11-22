@@ -1,7 +1,7 @@
 # Personal Website
 
 The live application can be found at:
-https://www.joshdwernychuk.com
+https://joshdwernychuk.herokuapp.com/
 
 
 # Usage
