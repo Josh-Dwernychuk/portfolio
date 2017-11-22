@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <!-- BEGIN HEAD -->
+  <head>
+      <meta charset="utf-8"/>
+      <title>Josh Dwernychuk</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta content="width=device-width, initial-scale=1" name="viewport"/>
+      <meta content="" name="description"/>
+      <meta content="" name="author"/>
+      <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+      <link href="{% static 'portfolio/HTML/vendor/simple-line-icons/css/simple-line-icons.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'portfolio/HTML/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'portfolio/HTML/css/animate.css' %}" rel="stylesheet">
+      <link href="{% static 'portfolio/HTML/vendor/swiper/css/swiper.min.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'portfolio/HTML/vendor/magnific-popup/magnific-popup.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'portfolio/HTML/css/layout.min.css' %}" rel="stylesheet" type="text/css"/>
+      <link rel="shortcut icon" href="{% static 'portfolio/images/Josh_favicon.png' %}"/>
+  </head>
+  <body id="body" data-spy="scroll" data-target=".header">
+      <header class="header navbar-fixed-top">
+          <nav class="navbar" role="navigation">
+              <div class="container">
+                  <div class="menu-container js_nav-item">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="toggle-icon"></span>
+                      </button>
+                      <div class="logo">
+                          <a class="logo-wrap" href="#body">
+                              <img class="logo-img logo-img-main" src="{% static 'portfolio/HTML/img/Josh Dwernychuk Software-dark.png' %}" alt="Asentus Logo">
+                              <img class="logo-img logo-img-active" src="{% static 'portfolio/HTML/img/Josh Dwernychuk Software-dark.png' %}" alt="Asentus Logo">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="collapse navbar-collapse nav-collapse">
+                      <div class="menu-container">
+                          <ul class="nav navbar-nav navbar-nav-right">
+                              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#services">Services</a></li>
+                              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#professional">Professional</a></li>
+                              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#portfolio">Portfolio</a></li>
+                              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#related">Related</a></li>
+                              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </nav>
+      </header>
+      <div class="promo-block">
+          <div class="container">
+              <div class="margin-b-40">
+                  <h1 class="promo-block-title">Sofware Engineering</h1>
+                  <h1 class="promo-block-title">&</h1>
+                  <h1 class="promo-block-title">Professional Consulting</h1>
+              </div>
+          </div>
+      </div>
+      <div id="services">
+          <div class="container content-lg">
+
+              <div class="row text-center margin-b-40">
+                  <div class="col-sm-6 col-sm-offset-3">
+                      <h2>Engineering Services</h2>
+                      <p></p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4 sm-margin-b-50">
+                      <div class="margin-b-20">
+                          <img class="img-responsive wow fadeIn" src="{% static 'portfolio/HTML/img/970x647/test.jpg' %}" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".2s">
+                      </div>
+                      <h4>Web<span class="text-uppercase margin-l-20">DEVELOPMENT</span></h4>
+                      <p>Efficient, reliable web development to meet business needs.</p>
+                  </div>
+                  <div class="col-sm-4 sm-margin-b-50">
+                      <div class="margin-b-20">
+                          <img class="img-responsive wow fadeIn" src="{% static 'portfolio/HTML/img/970x647/data.jpg' %}" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".3s">
+                      </div>
+                      <h4>Automation<span class="text-uppercase margin-l-20">ENGINEERING</span></h4>
+                      <p>Automated, well-tested process implementation.</p>
+                  </div>
+                  <div class="col-sm-4 sm-margin-b-50">
+                      <div class="margin-b-20">
+                          <img class="img-responsive wow fadeIn" src="{% static 'portfolio/HTML/img/970x647/automation.jpg' %}" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".1s">
+                      </div>
+                      <h4>Data<span class="text-uppercase margin-l-20">SYSTEMS</span></h4>
+                      <p>Data system design for effective business applications.</p>
+                  </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      <div id="professional">
+          <div class="bg-color-sky-light" data-auto-height="true">
+              <div class="content-lg container">
+                <div class="row text-center margin-b-40">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <h2> Professional Skills</h2>
+                        <p></p>
+                    </div>
+                </div>
+                  <div class="row row-space-2 margin-b-4">
+                      <div class="col-sm-4 sm-margin-b-4">
+                          <div class="service" data-height="height">
+                              <div class="service-element">
+                                  <i class="service-icon icon-docs"></i>
+                              </div>
+                              <div class="service-info">
+                                  <h3>Django</h3>
+                                  <p class="margin-b-5">Web Development</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-4 sm-margin-b-4">
+                          <div class="service bg-color-base wow fadeInDown" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                              <div class="service-element">
+                                  <i class="service-icon color-white icon-globe"></i>
+                              </div>
+                              <div class="service-info">
+                                  <h3 class="color-white">Python</h3>
+                                  <p class="color-white margin-b-5">Programming</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-4">
+                          <div class="service" data-height="height">
+                              <div class="service-element">
+                                  <i class="service-icon icon-chemistry"></i>
+                              </div>
+                              <div class="service-info">
+                                  <h3>PostgreSQL/MySQL</h3>
+                                  <p class="margin-b-5">Database Querying</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row row-space-2">
+                      <div class="col-sm-4 sm-margin-b-4">
+                          <div class="service" data-height="height">
+                              <div class="service-element">
+                                  <i class="service-icon icon-energy"></i>
+                              </div>
+                              <div class="service-info">
+                                  <h3>Celery/Redis</h3>
+                                  <p class="margin-b-5">Asynchronous Programming</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-4 sm-margin-b-4">
+                          <div class="service" data-height="height">
+                              <div class="service-element">
+                                  <i class="service-icon icon-control-play"></i>
+                              </div>
+                              <div class="service-info">
+                                  <h3>Linux</h3>
+                                  <p class="margin-b-5">System Administration</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-4">
+                          <div class="service" data-height="height">
+                              <div class="service-element">
+                                  <i class="service-icon icon-badge"></i>
+                              </div>
+                              <div class="service-info">
+                                  <h3>Docker</h3>
+                                  <p class="margin-b-5">Containerization</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="portfolio">
+          <div class="container content-lg">
+            <div class="row text-center margin-b-40">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <h2>Portfolio</h2>
+                    <p></p>
+                </div>
+            </div>
+              <div class="row">
+                <a href='https://agent-quotes-app.herokuapp.com/quote/dashboard'>
+                  <div class="col-sm-4 sm-margin-b-50">
+                      <div class="margin-b-20">
+                          <img class="img-responsive wow fadeIn" src="{% static 'portfolio/HTML/img/970x647/quotes.png' %}" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".1s">
+                      </div>
+                      <h4>Quote<span class="text-uppercase margin-l-20">DASHBOARD</span></h4>
+                      <p>Quoting dashboard designed to allow quoting agents to enter quote values for various individuals.</p>
+                  </div>
+                </a>
+              </div>
+          </div>
+          </div>
+      </div>
+
+      <div id="related">
+          <div class="container content-lg">
+            <div class="row text-center margin-b-40">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <h2>Related</h2>
+                    <p></p>
+                </div>
+            </div>
+              <div class="row">
+                <a href='https://github.com/Josh-Dwernychuk'>
+                  <div class="col-sm-4 sm-margin-b-50">
+                      <div class="margin-b-20">
+                          <img class="img-responsive wow fadeIn" src="{% static 'portfolio/HTML/img/970x647/github.png' %}" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".1s">
+                      </div>
+                      <h4>GitHub<span class="text-uppercase margin-l-20">REPOSITORIES</span></h4>
+                      <p>Reference source code and technology projects.</p>
+                  </div>
+                </a>
+                <a href='https://www.medium.com/@dwernychukjosh'>
+                  <div class="col-sm-4 sm-margin-b-50">
+                      <div class="margin-b-20">
+                          <img class="img-responsive wow fadeIn" src="{% static 'portfolio/HTML/img/970x647/medium.png' %}" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".2s">
+                      </div>
+                      <h4>Medium<span class="text-uppercase margin-l-20">BLOG</span></h4>
+                      <p>Head over to Medium to read software tutorials and other blog posts.</p>
+
+                  </div>
+                </a>
+                <a href='https://www.linkedin.com/in/josh-dwernychuk-7a4541124/'>
+                  <div class="col-sm-4 sm-margin-b-50">
+                      <div class="margin-b-20">
+                          <img class="img-responsive wow fadeIn" src="{% static 'portfolio/HTML/img/970x647/linkedin.png' %}" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".3s">
+                      </div>
+                      <h4>LinkedIn<span class="text-uppercase margin-l-20">PROFILE</span></h4>
+                      <p>Check out LinkedIn for detailed professional information.</p>
+                  </div>
+                </a>
+              </div>
+          </div>
+          </div>
+      </div>
+      <div id="contact">
+      </div>
+      <footer class="footer">
+          <div class="section-seperator">
+              <div class="content-md container">
+                  <div class="row">
+                      <div class="col-sm-2 sm-margin-b-30">
+                          <ul class="list-unstyled footer-list">
+                              <li class="footer-list-item"><a href="#">Home</a></li>
+                              <li class="footer-list-item"><a href="#services">Services</a></li>
+                              <li class="footer-list-item"><a href="professional#">Professional</a></li>
+                              <li class="footer-list-item"><a href="#portfolio">Portfolio</a></li>
+                              <li class="footer-list-item"><a href="#related">Related</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-2 sm-margin-b-30">
+                          <ul class="list-unstyled footer-list">
+
+                          </ul>
+                      </div>
+                      <div class="col-sm-3">
+                          <ul class="list-unstyled footer-list">
+                              <li class="footer-list-item">Contact</li>
+                              <li class="footer-list-item">josh@joshdwernychuk.com</li>
+                              <li class="footer-list-item">(303)-731-9109</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="content container">
+              <div class="row">
+                  <div class="col-xs-6">
+                  </div>
+                  <div class="col-xs-6 text-right">
+                  </div>
+              </div>
+          </div>
+      </footer>
+      <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+      <script src="{% static 'portfolio/HTML/vendor/jquery.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/vendor/jquery-migrate.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/vendor/bootstrap/js/bootstrap.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/vendor/jquery.easing.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/vendor/jquery.back-to-top.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/vendor/jquery.smooth-scroll.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/vendor/jquery.wow.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/vendor/swiper/js/swiper.jquery.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/vendor/magnific-popup/jquery.magnific-popup.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/vendor/masonry/jquery.masonry.pkgd.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/vendor/masonry/imagesloaded.pkgd.min.js' %}" type="text/javascript"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U&amp;callback=initMap" async defer></script>
+      <script src="{% static 'portfolio/HTML/js/layout.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/js/components/wow.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/js/components/swiper.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/js/components/maginific-popup.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/js/components/masonry.min.js' %}" type="text/javascript"></script>
+      <script src="{% static 'portfolio/HTML/js/components/gmap.min.js' %}" type="text/javascript"></script>
+  </body>
+</html>
